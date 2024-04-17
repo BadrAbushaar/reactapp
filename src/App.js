@@ -11,7 +11,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-    var data = this.props.data1;
     var self = this;
     d3.csv(tips, function(d){
       return {
